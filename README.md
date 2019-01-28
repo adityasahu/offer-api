@@ -14,6 +14,10 @@ Scheduler cron job is set for 0100 hours for checking expired offers each day.
 
 
 
+I am assuming any merchant can get the offers information without any authorisation or there is not need to check the origin of Merchant,  hence not considered it in my bounded context for Offer API.
+
+
+
 Swagger API Document:
 http://localhost:8080/swagger-ui.html
 http://localhost:8080/v2/api-docs
