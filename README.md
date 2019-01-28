@@ -4,6 +4,15 @@ Framework - Spring Boot
 Database - h2 database inbuild
 Test  - JUnit, Mockito
 
+Run this spring boot project:
+
+mvn spring-boot:run
+
+Assumptions:
+
+Scheduler cron job is set for 0100 hours for checking expired offers each day.
+
+
 
 Swagger API Document:
 http://localhost:8080/swagger-ui.html
